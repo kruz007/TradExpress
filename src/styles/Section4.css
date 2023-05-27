@@ -1,0 +1,26 @@
+.section-4{
+    padding: 2rem 0 4rem 0;
+    /* EDIT HERE AFTER GETTING QUOTES */
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.section-4 h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #292929;
+    text-align: center;
+}
+
+.section-4 .cards{
+    display: flex;    
+    justify-content: space-between;
+}
+
+.section-4 .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}

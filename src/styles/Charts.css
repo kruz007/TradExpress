@@ -1,0 +1,28 @@
+.charts {
+  background-color: #ede9ef;
+  border-bottom: #C5C0C0 1px solid;
+}
+
+.charts .currencies{
+  display: flex;
+}
+
+.charts .currency{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-right: #C5C0C0 1px solid;
+  /* width: 15rem; */
+  padding: 1rem 2rem 0;
+}
+
+.charts .top{
+  display: flex;
+  gap: 4rem;
+}
+
+.charts p{
+  color: #292929;
+  font-size: 14px;
+  font-family: 400;
+}

@@ -1,0 +1,37 @@
+.section-3 {
+  background-color: #ede9ef;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0 4rem 0;
+}
+
+.section-3 h6 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #292929;
+}
+
+.section-3 h2 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #26093a;
+}
+
+.get-started {
+  text-decoration: none;
+  width: 307px;
+  height: 47px;
+  background-color: #7c20bf;
+  padding-top: 10px;
+  color: white;
+  margin: auto;
+}
+
+.section-3 img {
+  width: 307px;
+  height: 47px;
+  color: #26093a;
+  margin: auto;
+}

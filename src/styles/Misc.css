@@ -1,0 +1,10 @@
+.misc {
+  text-align: center;
+}
+
+.misc h1 {
+  padding-top: 2rem;
+  font-weight: 700;
+  font-size: 30px;
+  color: #26093a;
+}

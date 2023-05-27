@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #7c20be;
+}
+
+.navbar .pages {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 2rem;
+}
+
+.navbar .links {
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar .login {
+  border: 1px solid white;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.navbar .get-started {
+  border: 1px solid white;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  color: #7c20be;
+  background-color: white;
+}
+
+.links:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

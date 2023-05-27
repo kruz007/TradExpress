@@ -1,0 +1,69 @@
+.section-2 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.section-2 h1 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #26093a;
+  text-align: center;
+  /* width: 60%; */
+  margin: auto;
+}
+.section-2 h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #292929;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.section-2 .number-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-2 .number-1 .inner {
+  display: flex;
+  gap: 2rem;
+}
+
+.section-2 h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #292929;
+  margin-bottom: 2rem;
+}
+.section-2 h6 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+}
+
+.section-2 .number-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2 .number-2 .inner {
+  display: flex;
+  gap: 2rem;
+}
+
+.section-2 .number-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2 .number-3 .inner {
+  display: flex;
+  gap: 2rem;
+}
