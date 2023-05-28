@@ -3,6 +3,10 @@
   border-bottom: #C5C0C0 1px solid;
 }
 
+.charts .container{
+  padding: 1rem 0;
+}
+
 .charts .currencies{
   display: flex;
 }
@@ -10,10 +14,10 @@
 .charts .currency{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.4rem;
   border-right: #C5C0C0 1px solid;
   /* width: 15rem; */
-  padding: 1rem 2rem 0;
+  padding: 0 2rem;
 }
 
 .charts .top{
@@ -23,6 +27,6 @@
 
 .charts p{
   color: #292929;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 400;
 }

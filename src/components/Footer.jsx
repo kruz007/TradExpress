@@ -45,13 +45,13 @@ const Footer = () => {
             <a href="">
               <h6>support@tradexpress.com</h6>
             </a>
-            <div className="social-media-links">
-              <div>
+            <div className="communities">
+              <div className="community">
                 <a href="https://twitter.com/TradeXpress" target="_blank">
                   <img src={twitterLogo} alt="Twitter" />
                 </a>
               </div>
-              <div>
+              <div className="community">
                 <a
                   href="https://t.me/s/jointradeXpres?before=487"
                   target="_blank"
@@ -59,12 +59,16 @@ const Footer = () => {
                   <img src={telegramLogo} alt="Telegram" />
                 </a>
               </div>
-              <div>
-                <a href="https://shorturl.at/wJLR9" target="_blank">
+              <div className="community">
+                <a
+                  // href="https://shorturl.at/wJLR9"
+                  href="https://wa.me/2347060440986?text=BadManDev"
+                  target="_blank"
+                >
                   <img src={whatsappLogo} alt="Whatsapp" />
                 </a>
               </div>
-              <div>
+              <div className="community">
                 <a href="https://shorturl.at/lmO47" target="_blank">
                   <img src={facebookLogo} alt="Facebook" />
                 </a>
