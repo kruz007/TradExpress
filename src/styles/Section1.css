@@ -32,6 +32,7 @@
 }
 
 .section-1 .cards {
+  /* margin: auto; */
   display: flex;
   justify-content: space-between;
 }
@@ -39,7 +40,7 @@
 .section-1 .card {
   background-color: white;
   padding: 2rem;
-  width: 350px;
+  max-width: 350px;
   height: 338px;
 }
 .section-1 .card img {
@@ -57,4 +58,13 @@
   font-weight: 400;
   font-size: 12px;
   color: #26093a;
+}
+
+@media (max-width: 770px) {
+  .section-1 .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+  }
 }
