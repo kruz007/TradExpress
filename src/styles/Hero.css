@@ -1,7 +1,7 @@
 .hero {
   background-color: #7c20be;
   color: white;
-  height: 450px;
+  min-height: 450px;
   display: flex;
   align-items: center;
   z-index: 1;
@@ -71,5 +71,8 @@
   }
   .big-circle {
     display: none;
+  }
+  .hero .container {
+    padding-bottom: 3rem;
   }
 }

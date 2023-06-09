@@ -47,6 +47,7 @@
   }
   .footer .communities{
     justify-content: flex-start;
+    gap: 1rem;
   }
   .footer .headings{
     display: flex;

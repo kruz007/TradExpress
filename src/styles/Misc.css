@@ -8,3 +8,7 @@
   font-size: 30px;
   color: #26093a;
 }
+
+.misc img{
+  max-width: 100%;
+}
