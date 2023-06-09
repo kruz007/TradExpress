@@ -60,7 +60,7 @@
   color: #26093a;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1200px) {
   .section-1 .cards {
     display: flex;
     flex-direction: column;

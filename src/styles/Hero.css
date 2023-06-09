@@ -64,3 +64,12 @@
   bottom: 7%;
   z-index: 5;
 }
+
+@media (max-width: 810px) {
+  .hero .small-circle {
+    display: none;
+  }
+  .big-circle {
+    display: none;
+  }
+}

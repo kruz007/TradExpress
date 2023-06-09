@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-div">
         <div className="container">
-          <div>
+          <div className="headings">
             <h5>Products</h5>
             <a href="">
               <h6>Bitcoin</h6>
@@ -28,7 +28,7 @@ const Footer = () => {
               <h6>P2P</h6>
             </a>
           </div>
-          <div>
+          <div className="headings">
             <h5>Learn</h5>
             <a href="">
               <h6>Blog</h6>
@@ -37,7 +37,7 @@ const Footer = () => {
               <h6>Help Center</h6>
             </a>
           </div>
-          <div>
+          <div className="headings">
             <h5>Contact</h5>
             <a href="">
               <h6>hello@tradexpress.com</h6>
@@ -75,7 +75,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="headings">
             <h5>Company</h5>
             <a href="">
               <h6>About Us</h6>
@@ -90,7 +90,7 @@ const Footer = () => {
               <h6>Mobile</h6>
             </a>
           </div>
-          <div>
+          <div className="headings">
             <h5>Legal</h5>
             <a href="">
               <h6>Privacy Policy</h6>

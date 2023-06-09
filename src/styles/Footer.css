@@ -38,3 +38,19 @@
   font-weight: 400;
   color: #292929;
 }
+
+@media (max-width: 770px) {
+  .footer .container{
+    flex-direction: column;
+    gap: 3rem;
+    margin: auto;
+  }
+  .footer .communities{
+    justify-content: flex-start;
+  }
+  .footer .headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

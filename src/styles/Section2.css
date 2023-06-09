@@ -67,3 +67,21 @@
   display: flex;
   gap: 2rem;
 }
+
+@media (max-width: 770px) {
+  .section-2 .number-1 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-2 .number-2 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-2 .number-3 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-2 .container {
+    gap: 4rem;
+  }
+}
