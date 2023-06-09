@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Section3.css";
 import { Link } from "react-router-dom";
-import appstore from "../assets/Get on stores.svg";
+import appstore2 from "../assets/Get on stores 2.svg";
 
 const Section3 = () => {
   return (
@@ -12,7 +12,7 @@ const Section3 = () => {
         <p>Get Started</p>
       </Link>
       <a href="https://shorturl.at/cdv25" target="_blank">
-        <img src={appstore} alt="" />
+        <img src={appstore2} alt="" />
       </a>
     </div>
   );
